@@ -1,0 +1,60 @@
+.gridfile{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 14px;
+  row-gap: 12px;
+}
+body{
+  margin: 0;
+  padding-top: 85px;
+  padding-left: 90px;
+  padding-right: 25px;
+  background-color: rgb(247, 247, 247);
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.picture{
+  width: 100%;
+}  
+
+.row{
+  margin-bottom: 10px;
+  width: 100%;
+}
+.title1{
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  
+}
+
+.cname,
+.detial
+{
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+
+}
+.detial{
+  margin-top: 2px;
+}
+.channal{
+  display: inline-block;
+  width: 40px;
+  vertical-align: top;
+
+}
+.title{
+  display: inline-block;
+  width: 350px;
+  
+}
+.profile{
+  width: 100%;
+  border-radius: 40px;
+}

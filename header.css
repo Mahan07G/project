@@ -1,0 +1,171 @@
+.header{
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width:2px ;
+  border-bottom-style: solid;
+  border-bottom-color:  rgb(175, 169, 169);
+  z-index: 100;
+  margin-left: 5px;
+}
+.left{
+ 
+  display: flex;
+  align-items: center;
+}
+.hamburger{
+  height: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.youtube{
+  height: 35px;
+}
+.middle{
+ 
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 30px;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+
+}
+.buttonsearch{
+  width: 60px;
+  height:42px ;
+  background-color: rgb(240, 240, 240);
+  border-style: solid;
+  border-color: gray;
+  margin-right: 10px;
+  margin-left: -1px;
+  
+
+}
+.buttonsearch,
+.buttonmic,
+.buttoncreate,
+.buttonapp,
+.buttonnotify
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
+
+.buttonsearch .hovertool,
+.buttonmic .hovertool,
+.buttoncreate .hovertool,
+.buttonapp .hovertool,
+.buttonnotify .hovertool
+
+{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  bottom: -23px;
+  border-radius: 3px;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  
+  
+}
+.buttonsearch:hover .hovertool,
+.buttonmic:hover .hovertool,
+.buttoncreate:hover .hovertool,
+.buttonapp:hover .hovertool,
+.buttonnotify:hover .hovertool
+{
+  opacity: 1;
+}
+
+.search{
+  height: 32px;
+  
+  
+}
+.buttonmic{
+  height: 42px;
+  width: 40px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 21px;
+  border-style: none;
+  
+}
+.mic{
+  
+  height: 32px;
+  
+  
+
+}
+.searchbar{
+  height: 38px;
+  flex: 1;
+  width: 0;
+  font-size: 25px;
+  padding-left: 10px;
+  border-color: gray;
+  border-style: solid;
+  box-shadow: inset 3 3 3 rgba(0, 0, 0 , 0.15);
+  
+  
+
+}
+.searchbar::placeholder{
+  font-family: 'roboto';
+  font-size: 19px;
+}
+.right{
+  
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+  
+}
+.add{
+  height: 38px;
+}
+.app{
+  height: 38px;
+}
+.notify{
+  height: 38px;
+}
+.notifyicon{
+  position: relative;
+}
+.notifynumber{
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(190, 2, 2);
+  color: white;
+  font-size: 13px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 18px;
+}
+.myprofile{
+  height: 42px;
+  border-radius: 25px;
+
+
+}
